@@ -1,0 +1,32 @@
+# Day 2 Reflection
+
+## What I learned
+Today I learned the basics of using the terminal and Linux-style navigation commands. I practiced navigating directories, creating folders and files, listing directory contents, and understanding how the terminal works. I also learned how Git behaves when commands are executed from different directories.
+
+## What mistakes I made
+I didn't make any major mistakes today. However, I initially thought running git add . from the ExpenseTracker folder would stage my entire workspace. This wasn't a mistake in Git—it helped me understand how Git uses the current working directory.
+
+## How I solved them
+I used git status and git rev-parse --show-toplevel to understand where my Git repository started. After learning how Git stages files relative to the current directory, I navigated back to the workspace root and committed the remaining files correctly.
+
+## Commands I used today
+pwd
+ls
+cd
+cd ..
+mkdir
+New-Item
+git status
+git add .
+git commit
+git rev-parse --show-toplevel
+
+## One new thing I discovered
+I understood the difference between:
+
+cd . → Stay in the current directory.
+cd .. → Move to the parent directory.
+
+I also learned that git add . stages files from the current directory, not necessarily the entire repository.
+## Questions I still have
+No questions today. I understood today's concepts after practicing and debugging them.

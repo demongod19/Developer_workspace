@@ -1,0 +1,8 @@
+Roll_no = input("Enter your Roll Number: ")
+Dept = input("Enter your Department: ")
+CDPA = input("Enter your CDPA: ")
+print("**********Student Card***********")
+print("Roll Number:", Roll_no)
+print("Department:", Dept)  
+print("CDPA:", CDPA)
+print("*********************************")
