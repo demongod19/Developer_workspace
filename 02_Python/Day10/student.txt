@@ -1,0 +1,4 @@
+Name = John Doe
+Age = 20
+branch = Computer Science
+college: XYZ University
